@@ -1,0 +1,63 @@
+.showcase-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Slightly reduced gap for tighter layout */
+    padding: 20px;
+}
+
+.bitbeam-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #333; /* Dark background for better contrast */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    gap: 15px; /* Reduced space between image and content */
+}
+
+.bitbeam-box.left {
+    flex-direction: row;
+}
+
+.bitbeam-box.right {
+    flex-direction: row-reverse;
+}
+
+.bitbeam-image img {
+    width: 100%;
+    max-width: 350px; /* Balanced size for a more compact layout */
+    height: auto;
+    border-radius: 8px;
+}
+
+.bitbeam-content {
+    max-width: 480px; /* Ensures content stays consistent in width */
+}
+
+.bitbeam-content h1 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 8px; /* Reduced margin for tighter text grouping */
+}
+
+.category {
+    font-size: 16px;
+    color: #bbb;
+    margin-bottom: 8px; /* Adjusted spacing */
+}
+
+.description {
+    font-size: 16px;
+    color: #ddd;
+    margin-bottom: 12px;
+}
+
+.full-project {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.full-project:hover {
+    text-decoration: underline;
+}

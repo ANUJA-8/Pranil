@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Hand+Of+Sean&display=swap');
+
+.home {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background: url('./images/About background.png') no-repeat center center/cover;
+
+}
+
+.content {
+    max-width: 50%;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.highlight {
+    font-family: 'Hand Of Sean', sans-serif;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 67px;
+    background: radial-gradient(48.92% 48.92% at 50% -4.73%, #08FDF7 0%, #5B60FC 50%, #B219D8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;  
+
+}
+
+p {
+    margin-top: 20px;
+    line-height: 1.6;
+    opacity: 0.8;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.btn {
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 1rem;
+    margin-right: 15px;
+}
+
+.btn.primary {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn.secondary {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.image-container img {
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
+}
