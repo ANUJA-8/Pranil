@@ -1,0 +1,75 @@
+/* Main Archive Container */
+.archive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 0;
+    color: white;
+    background: url('./images/About background.png') no-repeat center center/cover;
+}
+
+/* Behance Card */
+.behance-card {
+    background-color: #1c1c1e;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+}
+
+    .behance-card:hover {
+        background-color: #7A7DFF;
+        color: white;
+    }
+
+/* Paragraph */
+.archive p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+    .social-icons a {
+        color: white;
+        font-size: 24px;
+        transition: 0.3s;
+    }
+
+        .social-icons a:hover {
+            color: #7A7DFF;
+        }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .archive {
+        padding: 30px 20px;
+    }
+
+    .behance-card {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+
+    .archive p {
+        font-size: 16px;
+    }
+
+    .social-icons a {
+        font-size: 22px;
+    }
+}

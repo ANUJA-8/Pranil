@@ -1,0 +1,119 @@
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 0;
+    color: white;
+    background: url('./images/About background.png') no-repeat center center/cover;
+}
+
+.highlight {
+    font-family: 'Hand Of Sean', sans-serif;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 67px;
+    background: radial-gradient(48.92% 48.92% at 50% -4.73%, #08FDF7 0%, #5B60FC 50%, #B219D8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Left section: Contact info */
+.contact-info {
+    flex: 1;
+    max-width: 40%;
+}
+
+    .contact-info h2 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .contact-info span {
+        color: #7A7DFF;
+    }
+
+    .contact-info p {
+        font-size: 1rem;
+        margin: 10px 0;
+    }
+
+/* Right section: Form */
+.contact-form {
+    flex: 1;
+    max-width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Form inputs */
+.form-group {
+    margin-bottom: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #7A7DFF;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+    .submit-button:hover {
+        background-color: #5A5ECC;
+    }
+
+/* Social icons */
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+    .social-icons a {
+        color: white;
+        font-size: 24px;
+        transition: 0.3s;
+    }
+
+        .social-icons a:hover {
+            color: #7A7DFF;
+        }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-info, .contact-form {
+        max-width: 100%;
+    }
+}

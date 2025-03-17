@@ -42,7 +42,7 @@ const Showcase = () => (
                 <p className="description">
                     House of Sage is an Etsy shop offering handmade herbal medicines and remedies, crafted with mushrooms and other natural herbs.
                 </p>
-                <a href="#" className="full-project">Full Project ↗</a>
+                <a href="https://www.behance.net/gallery/204448231/Logo-Design-001" className="full-project">Full Project ↗</a>
             </div>
         </div>
     </div>

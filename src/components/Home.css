@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Hand+Of+Sean&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Hand+Of+Sean+(Demo)');
 .home {
     display: flex;
     height: 100vh;
@@ -31,6 +31,7 @@ h2 {
     font-size: 58px;
     line-height: 67px;
     background: radial-gradient(48.92% 48.92% at 50% -4.73%, #08FDF7 0%, #5B60FC 50%, #B219D8 100%);
+
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;  
