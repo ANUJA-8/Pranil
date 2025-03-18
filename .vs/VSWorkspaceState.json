@@ -1,13 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\build",
     "\\build\\static",
     "\\build\\static\\media",
     "\\src",
     "\\src\\assets",
     "\\src\\components"
   ],
-  "SelectedNode": "\\build\\Assets",
+  "SelectedNode": "\\src\\components\\Navbar.css",
   "PreviewInSolutionExplorer": false
 }
