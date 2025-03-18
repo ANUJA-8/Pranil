@@ -1,15 +1,24 @@
 .contact-container {
     display: flex;
-    justify-content: space-between;
+    height: 100vh;
     align-items: center;
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-    padding: 50px 0;
-    color: white;
+    justify-content: space-between;
+    padding: 50px;
     background: url('./images/About background.png') no-repeat center center/cover;
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repetition */
+}
+.phone-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
+    .phone-link:hover {
+        text-decoration: underline;
+        color: #7A7DFF;
+    }
 .highlight {
     font-family: 'Hand Of Sean', sans-serif;
     font-weight: 500;

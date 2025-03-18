@@ -8,6 +8,7 @@ import Archive from './components/Archive';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import './index.css';
+import Birthday from './components/Birthday';
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
                 <Route path="/showcase/:id" element={<ShowcaseDetail />} />
                 <Route path="/archive" element={<Archive />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/birthday" element={<Birthday />} />
             </Routes>
         </Router>
     );

@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.2adb233e.css",
-    "main.js": "/static/js/main.c45ba949.js",
+    "main.css": "/static/css/main.1a2c22f2.css",
+    "main.js": "/static/js/main.a18a0487.js",
+    "static/media/Pranil.png": "/static/media/Pranil.4e78dff05fb1029227ae.png",
     "static/media/About background.png": "/static/media/About background.220b741d3347b56b84ee.png",
+    "static/media/2.jpg": "/static/media/2.cd89223fbda833f3b553.jpg",
+    "static/media/1.jpg": "/static/media/1.c97820b2a651cd1aa084.jpg",
     "index.html": "/index.html",
-    "main.2adb233e.css.map": "/static/css/main.2adb233e.css.map",
-    "main.c45ba949.js.map": "/static/js/main.c45ba949.js.map"
+    "main.1a2c22f2.css.map": "/static/css/main.1a2c22f2.css.map",
+    "main.a18a0487.js.map": "/static/js/main.a18a0487.js.map"
   },
   "entrypoints": [
-    "static/css/main.2adb233e.css",
-    "static/js/main.c45ba949.js"
+    "static/css/main.1a2c22f2.css",
+    "static/js/main.a18a0487.js"
   ]
 }

@@ -5,13 +5,15 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 5px; /* Reduce spacing between child elements */
     width: 90%;
     max-width: 1200px;
+    min-height: 100vh;
     margin: auto;
-    padding: 50px 0;
     color: white;
     background: url('./images/About background.png') no-repeat center center/cover;
 }
+
 
 /* Behance Card */
 .behance-card {

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import profileImage from '../assets/pranil.jpeg'; // Ensure your image is inside /src/assets/
+import profileImage from '../assets/Pranil.png'; // Ensure your image is inside /src/assets/
 import Contact from './Contact';
 import { Link } from 'react-router-dom';
 const Home = () => (
