@@ -1,10 +1,14 @@
 .showcase-container {
-    display: flex;
     flex-direction: column;
     gap: 20px; /* Slightly reduced gap for tighter layout */
-    padding: 20px;
     height: 1200px;
     background: url('./images/About background.png') no-repeat center center/cover;
+    display: block; /* ensures vertical stacking */
+    border-bottom: 1px solid #ddd; /* optional divider */
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
 }
 
 .bitbeam-box {

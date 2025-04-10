@@ -1,31 +1,21 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Element } from 'react-scroll';
 import Home from './components/Home';
 import Showcase from './components/Showcase';
-import ShowcaseDetail from './components/ShowcaseDetail';
 import Archive from './components/Archive';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
-import './index.css';
-import Birthday from './components/Birthday';
 
 function App() {
     return (
-        <Router>
+        <div>
             <Navbar />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/showcase" element={<Showcase />} />
-                <Route path="/showcase/:id" element={<ShowcaseDetail />} />
-                <Route path="/archive" element={<Archive />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/birthday" element={<Birthday />} />
-            </Routes>
-        </Router>
+            <Element name="home"><Home /></Element>
+            <Element name="showcase"><Showcase /></Element>
+            <Element name="archive"><Archive /></Element>
+            <Element name="contact"><Contact /></Element>
+        </div>
     );
 }
 
 export default App;
-
-

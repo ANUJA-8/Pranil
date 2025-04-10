@@ -5,13 +5,15 @@
     height: 100vh;
     align-items: center;
     justify-content: space-between;
-    padding: 50px;
     background: url('./images/About background.png') no-repeat center center/cover;
-     background-size: cover; /* Ensures the image covers the entire area */
-      background-position: center; /* Centers the image */
-      background-repeat: no-repeat; /* Prevents repetition */
-
-}
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repetition */
+    border-bottom: 1px solid #ddd;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}   
 
 .content {
     max-width: 50%;

@@ -1,17 +1,20 @@
 /* Main Archive Container */
 .archive {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     gap: 5px; /* Reduce spacing between child elements */
-    width: 90%;
     max-width: 1200px;
     min-height: 100vh;
-    margin: auto;
     color: white;
     background: url('./images/About background.png') no-repeat center center/cover;
+    display: block; /* ensures vertical stacking */
+    border-bottom: 1px solid #ddd; /* optional divider */
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
 }
 
 

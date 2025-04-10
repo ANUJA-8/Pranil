@@ -14,7 +14,7 @@ const Showcase = () => (
                     BitBeam delivers smart, energy-efficient LED lighting solutions with 
                     customizable features for modern homes and workspaces.
                 </p>
-                <a href="#" className="full-project">Full Project ↗</a>
+                <a href="https://www.behance.net/gallery/204448231/Logo-Design-001" className="full-project">Full Project ↗</a>
             </div>
         </div>
 
@@ -28,7 +28,7 @@ const Showcase = () => (
                 <p className="description">
                     Crater Studio is a design studio specializing in the design and development of digital products, including web applications, mobile apps, and websites.
                 </p>
-                <a href="#" className="full-project">Full Project ↗</a>
+                <a href="https://www.behance.net/gallery/204448231/Logo-Design-001" className="full-project">Full Project ↗</a>
             </div>
         </div>
 
